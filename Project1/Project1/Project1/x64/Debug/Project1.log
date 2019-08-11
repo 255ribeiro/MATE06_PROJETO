@@ -1,0 +1,41 @@
+﻿main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "void __cdecl initGL(struct GLFWwindow *)" (?initGL@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glewGetString referenced in function "void __cdecl initGL(struct GLFWwindow *)" (?initGL@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetErrorCallback referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "void __cdecl GLFW_MainLoop(struct GLFWwindow *)" (?GLFW_MainLoop@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "void __cdecl initGL(struct GLFWwindow *)" (?initGL@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowSizeCallback referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "void __cdecl GLFW_MainLoop(struct GLFWwindow *)" (?GLFW_MainLoop@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function "void __cdecl GLFW_MainLoop(struct GLFWwindow *)" (?GLFW_MainLoop@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "void __cdecl GLFW_MainLoop(struct GLFWwindow *)" (?GLFW_MainLoop@@YAXPEAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function "struct GLFWwindow * __cdecl initGLFW(char *,int,int)" (?initGLFW@@YAPEAUGLFWwindow@@PEADHH@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+main.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+main.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+main.obj : error LNK2001: unresolved external symbol __imp___glewDisableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+main.obj : error LNK2001: unresolved external symbol __imp___glewGetAttribLocation
+main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramInfoLog
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+initShaders.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+C:\OpenGl_libs\libraries\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGl_libs\libraries\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGl_libs\libraries\assimp-vc140-mt.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\OpenGl_libs\libraries\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\ffrib\Documents\Visual Studio 2017\Projects\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 36 unresolved externals
